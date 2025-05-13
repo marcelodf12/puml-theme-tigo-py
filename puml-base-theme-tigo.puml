@@ -11,6 +11,7 @@ skinparam useBetaStyle false
 !$BLACK = "#1F1F1F"
 !$GRAY_DARK = "#999999"
 !$GRAY = "#F7F6F6"
+!$GRAY_LIGHT = '#EEEEEE'
 !$PRIMARY = "#00377B"
 !$SECONDARY = "#00C8FF"
 !$SUCCESS = "#37C846"
@@ -267,13 +268,14 @@ skinparam sequence {
 	StartColor $PRIMARY
 	EndColor $PRIMARY
 	''
-	BoxBackgroundColor $WHITE
+	BoxBackgroundColor $GRAY_LIGHT
 	BoxBorderColor $GRAY
-	BoxFontColor $DARK
+	BoxFontColor $PRIMARY
+	BoxPadding 5
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor $SECONDARY_DARK
+	LifeLineBorderColor $PRIMARY
 	LifeLineBorderThickness 2
 	LifeLineBackgroundColor $SECONDARY_LIGHT
 	''
